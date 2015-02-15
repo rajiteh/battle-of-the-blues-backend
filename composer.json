@@ -1,0 +1,7 @@
+{
+    "name": "botb/battle-of-the-blues-backend",
+    "require": {
+        "chrisboulton/php-resque": "~1.2",
+        "catfan/medoo": "0.9.*"
+    }
+}

@@ -1,0 +1,104 @@
+[
+    {
+        "name": "chrisboulton/php-resque",
+        "version": "1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chrisboulton/php-resque.git",
+            "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chrisboulton/php-resque/zipball/0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+            "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-10-13 07:28:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Resque": "lib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Boulton",
+                "email": "chris@bigcommerce.com"
+            }
+        ],
+        "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+        "homepage": "http://www.github.com/chrisboulton/php-resque/",
+        "keywords": [
+            "background",
+            "job",
+            "redis",
+            "resque"
+        ]
+    },
+    {
+        "name": "catfan/medoo",
+        "version": "v0.9.8",
+        "version_normalized": "0.9.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/catfan/Medoo.git",
+            "reference": "920ae293ee87286f955a5265124509695e172434"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/catfan/Medoo/zipball/920ae293ee87286f955a5265124509695e172434",
+            "reference": "920ae293ee87286f955a5265124509695e172434",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=5.1"
+        },
+        "suggest": {
+            "ext-pdo-mysql": "For MySQL or MariaDB databases",
+            "ext-pdo-pqsql": "For PostgreSQL databases",
+            "ext-pdo-sqlite": "For SQLite databases",
+            "ext-pdo_dblib": "For MSSQL or Sybase databases on Liunx/UNIX platform",
+            "ext-pdo_oci": "For Oracle databases",
+            "ext-pdo_sqlsrv": "For MSSQL databases on Windows platform"
+        },
+        "time": "2015-02-11 03:54:23",
+        "type": "framework",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "medoo.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Angel Lai",
+                "email": "angel.lai.cat@gmail.com"
+            }
+        ],
+        "description": "The Lightest PHP database framework to accelerate development",
+        "homepage": "http://medoo.in",
+        "keywords": [
+            "database",
+            "lightweight",
+            "mssql",
+            "mysql",
+            "php framework",
+            "sql",
+            "sqlite"
+        ]
+    }
+]
