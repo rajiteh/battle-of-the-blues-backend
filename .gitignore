@@ -1,1 +1,4 @@
 Procfile
+.DS_STORE
+.vagrant
+Vagrantfile
