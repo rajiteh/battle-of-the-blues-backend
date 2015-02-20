@@ -1,4 +1,13 @@
 {
     "name": "botb/battle-of-the-blues-backend",
-    "require": {}
+    "require": {
+    	"chrisboulton/php-resque": "dev-master",
+    	"gomoob/php-pushwoosh": "1.0.x"
+    },
+    "autoload": {
+    	"classmap" : [
+    		"jobs/",
+    		"includes/"
+    	]
+    }
 }

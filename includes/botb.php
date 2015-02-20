@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Battle of the Blues Backend 
+ * Battle of the Blues Backend
  *
  */
 
@@ -12,28 +12,24 @@ class BotB {
     );
     protected $database;
     protected $baseUrl;
-    
+
     // Public //
     // ====== //
-    
+
     public function __construct($dbConnection, $dbUser, $dbPassword, $baseUrl = '/') {
         $this->database = new PDO($dbConnection, $dbUser, $dbPassword, self::$pdoOptions);
         $this->baseUrl = $baseUrl;
     }
-    
+
    /**
     * Get match statistics (Score and player information)
     *
     * @return an associated array of all scores and all player information.
-    */  
+    */
     public function getStats() {
         $scores = $this->getScores();
-        $team = $this->getTeam($scores['team']);
-        $players = $this->getPlayers($scores['team']);
-        return array_merge($scores, array(
-            "team" => $team,
-            "players" => $players        
-        ));
+        $scores["at_crease"]  = $this->getPlayers();
+        return $scores;
     }
 
    /**
@@ -44,17 +40,18 @@ class BotB {
     *
     * @return map containing the url for next page (if exists) and an array of comments
     * Example:
-    *    array( 
-    *       "nextPage" => "/api/comments?page=2", 
+    *    array(
+    *       "nextPage" => "/api/comments?page=2",
     *       "comments" => array(
-    *           array( 
+    *           array(
     *               "id" => 15,
     *               "comment" => "Some comment"
     *           )
     *       )
     *    )
-    */ 
-    public function getCommentaries($page, $perPage=25) {
+    */
+   // public function getCommentaries($cursor, $direction, $count=25) {
+    public function getCommentaries($page, $perPage, $count=25) {
         if (!is_numeric($page) || $page < 1) throw new Exception('Illegal argument for getCommentaries $page');
         if (!is_numeric($perPage) || $page < 1) throw new Exception('Illegal argument for getCommentaries $perPage');
 
@@ -65,27 +62,46 @@ class BotB {
         if ($count > $perPage) {
             $nextPage = $this->baseUrl . "comments?page=" . ($page + 1);
             array_pop($result);
-        } 
-        $retval = array( 
+        }
+        $retval = array(
             "nextPage" => $nextPage,
             "commentaries" => $result
         );
         return $retval;
     }
 
+    public function activateSubscriber($uuid) {
+        $sql = 'INSERT INTO subscribers (uuid) VALUES("'.$uuid.'") ON DUPLICATE KEY UPDATE last_seen=NOW(), expired=0';
+        $result = $this->database->query($sql);
+        return true;
+    }
+
+    public function deactivateSubscriber($uuid) {
+        $sql = 'UPDATE subscribers SET expired=1 WHERE uuid = "'.$uuid.'"';
+        $result = $this->database->query($sql);
+    }
+
+    public function getSubscribers($limit=false, $offset=false) {
+        $sql = 'SELECT uuid FROM subscribers WHERE expired=0';
+        if ($limit != false) {
+            $sql = $sql." LIMIT ".$limit;
+            if ($offset != false) {
+                $sql = $sql." OFFSET ".$offset;
+            }
+        }
+        $result = $this->database->query($sql)->fetchAll(PDO::FETCH_COLUMN, 0);
+        return $result;
+    }
+
+    public function expireSubscribers($before) {
+        $sql = 'UPDATE subscribers SET expired=1 WHERE last_seen < \''.$before.'\'';
+        echo $sql."\n";
+        $result = $this->database->query($sql);
+    }
+
     // Private //
     // ======= //
 
-
-
-   /**
-    * Retrieves information about a team.
-    *
-    */
-    private function getTeam($team) {
-        $team = $this->database->query("SELECT * FROM team WHERE id = ${team}")->fetch(PDO::FETCH_ASSOC);
-        return $team;
-    }
 
    /**
     * Retrieves all available scores from the database.
@@ -117,13 +133,12 @@ class BotB {
    /**
     * Gets information about all players.
     *
-    * Retrieves id, ball, name and the number of runs of all players.
+    * Retrieves id, ball, name and the number of runs of the 2 players at the crease.
     *
     * @return Array of key value mappings of player data.
     */
-    private function getPlayers($team) {
-        if (!is_numeric($team)) throw new Exception('Illegal argument for getPlayers $team');
-        $result = $this->database->query("SELECT * FROM players WHERE team = ${team} ORDER BY batting_order DESC")->fetchAll(PDO::FETCH_ASSOC);
+    private function getPlayers() {
+        $result = $this->database->query("SELECT * FROM players ORDER BY name LIMIT 2")->fetchAll(PDO::FETCH_ASSOC);
         $retval = array();
         foreach ($result as $row) {
             array_push($retval, $row);
@@ -140,7 +155,7 @@ class BotB {
     * @param a PDO fetch result from 'players' table
     *
     * @return key value mapping of player data
-    */   
+    */
     private function generatePlayerArray($row) {
         return array(
             'name' => $row['name'],

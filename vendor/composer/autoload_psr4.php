@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Gomoob\\' => array($vendorDir . '/gomoob/php-pushwoosh/src/main/php/Gomoob'),
 );

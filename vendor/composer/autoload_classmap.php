@@ -6,4 +6,16 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Add_Subscriber' => $baseDir . '/jobs/Add_Subscriber.php',
+    'Analytics' => $baseDir . '/includes/analytics.php',
+    'BotB' => $baseDir . '/includes/botb.php',
+    'Cache' => $baseDir . '/includes/cache.php',
+    'Config' => $baseDir . '/includes/config.php',
+    'CredisException' => $vendorDir . '/colinmollenhour/credis/Client.php',
+    'Credis_Client' => $vendorDir . '/colinmollenhour/credis/Client.php',
+    'Credis_Cluster' => $vendorDir . '/colinmollenhour/credis/Cluster.php',
+    'Credis_Sentinel' => $vendorDir . '/colinmollenhour/credis/Sentinel.php',
+    'Pusher' => $baseDir . '/includes/pusher.php',
+    'Renderer' => $baseDir . '/includes/renderer.php',
+    'Send_Push_Message' => $baseDir . '/jobs/Send_Push_Message.php',
 );

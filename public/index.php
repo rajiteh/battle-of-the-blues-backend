@@ -5,40 +5,28 @@
  *
  */
 
-//Debug
-$_ENV['DATABASE_STRING']   = empty($_ENV['DATABASE_STRING'])   ? 'mysql:host=localhost;dbname=botb;charset=utf8' : $_ENV['DATABASE_STRING'];
-$_ENV['DATABASE_USER']     = empty($_ENV['DATABASE_USER'])     ? 'botb' : $_ENV['DATABASE_USER'];
-$_ENV['DATABASE_PASSWORD'] = empty($_ENV['DATABASE_PASSWORD']) ? 'botb' : $_ENV['DATABASE_PASSWORD'];
-$_ENV['DEBUG']             = empty($_ENV['DEBUG'])             ? '1' : $_ENV['DEBUG'];
-//End Debug
-
-require_once('./botb.php');
-require_once('./cache.php');
-require_once('./analytics.php');
-
+require_once('../vendor/autoload.php');
 //Print JSON Headers
-header('Cache-Control: no-cache, must-revalidate');
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-header('Content-type: application/json');
 
 
-$botb = new BotB($_ENV['DATABASE_STRING'], $_ENV['DATABASE_USER'], $_ENV['DATABASE_PASSWORD']);
-$cache = new Cache();
+$botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
+$cache = new Cache(Config::REDIS_DSN);
 $analytics = new Analytics();
 $route = rtrim($_REQUEST["param"], '/');
-
+Resque::setBackend('localhost:6379');
 try {
     $resultObject = null;
 
     //Generate a cache key from the request
-    $cacheKey = $cache->generateCacheKey($_REQUEST);
-
+    $cacheKey = $cache->generateCacheKey($route);
+    $cacheWhitelist = array( "trigger_push" );
     //Check if the request is cached
-    if (empty($resultObject = $cache->get($cacheKey))) {
+    if (in_array($route, $cacheWhitelist) || (($resultObject = $cache->get($cacheKey)) === false)) {
+        error_log("Cache miss : " . $route);
         /*
          *  GET /comments
          *      Retrieves a list of comments.
-         *      
+         *
          *      Parameters:
          *          page : page number to retrieve (default = 1)
          *          limit: entries retrieved per request (default = 25)
@@ -54,28 +42,41 @@ try {
          */
         elseif ($route == "stats") {
             $resultObject = $botb->getStats();
-        } else {
-            throw new Exception("Route not found.");
         }
-
+        elseif ($route == "trigger_push") {
+            Pusher::queuePushMessage("SCORE UPDATE!");
+            $resultObject = array("triggered" => true);
+        } else {
+            //throw new Exception("Route not found.");
+        }
         //Update the cache
         $cache->set($cacheKey, $resultObject);
+    };
+
+    if (!empty($_GET['id']) && $_GET['id'] != 'false') {
+        if ($route == "stats") {
+            Pusher::queueSubscription($_GET['id']);
+            $resultObject["subscription_accepted"] = true;
+        }
+        elseif ($route == "unsubscribe") {
+            Pusher::queueUnsubscription($_GET['id']);
+            $resultObject = array("unsubscription_accepted" => true);
+        } else {
+            throw new Exception("Unexpected parameter ID with hwid.");
+        }
     }
-    
-    echo json_encode($resultObject);
+
+    Renderer::write($resultObject);
     $analytics->storeRouteEvent($route, $_REQUEST);
 } catch (Exception $e) {
-    
-    if ($_ENV["DEBUG"] == '1')
-        $msg = $e->__toString();
+    http_response_code(500);
+    if (Config::DEBUG == '1')
+        throw $e;
     else
         $msg = "There was a problem completing your request. Please contact the admins.";
 
-    echo json_encode(array(
-        "exception" => $msg
-    ));
+    Renderer::write(array( "exception" => $msg ));
+
     $analytics->storeEvent("error", $e);
     error_log($e);
 }
-
-
