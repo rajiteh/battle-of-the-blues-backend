@@ -8,9 +8,9 @@ use Gomoob\Pushwoosh\Client\Pushwoosh;
 use Gomoob\Pushwoosh\Model\Notification\Notification;
 use Gomoob\Pushwoosh\Model\Request\CreateMessageRequest;
 
-class Send_Push_Message {
+class Send_Push_Message extends Base_Job {
 
-    public function perform()
+    public function perform_wrapped()
     {
     	echo "\nStarting Send_Push_Message\n";
         $botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);

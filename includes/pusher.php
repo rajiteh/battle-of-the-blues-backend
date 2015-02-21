@@ -13,7 +13,7 @@ class Pusher {
 			'uuid' => $uuid,
 			'type' => 'subscribe'
 			);
-		Resque::enqueue('subscribers','Add_Subscriber', $args);
+		self::enqueue('subscribers','Add_Subscriber', $args);
 	}
 
 	public static function queueUnsubscription($uuid) {
@@ -22,14 +22,19 @@ class Pusher {
 			'uuid' => $uuid,
 			'type' => 'unsubscribe'
 			);
-		Resque::enqueue('subscribers','Add_Subscriber', $args);
+		self::enqueue('subscribers','Add_Subscriber', $args);
 	}
 
 	public static function queuePushMessage($message) {
 		$args = array(
 			'message' => $message
 			);
-		Resque::enqueue('push', 'Send_Push_Message', $args);
+		self::enqueue('push', 'Send_Push_Message', $args);
+	}
+
+	protected static function enqueue($q, $c, $a) {
+		Resque::setBackend(Config::REDIS_DSN);
+		Resque::enqueue($q, $c, $a);
 	}
 
 }

@@ -6,6 +6,9 @@
  */
 
 class BotB {
+    const COMMENTS_OLDER = 0x01,
+          COMMENTS_NEWER = 0X02;
+
     private static $pdoOptions = array(
         PDO::ATTR_EMULATE_PREPARES => true,
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
@@ -34,40 +37,25 @@ class BotB {
 
    /**
     * Retrieve commentary from the database.
-    *
-    * @param $page integer entry page to retrieve
-    * @param $perPage integer entries per page to retrieve
-    *
-    * @return map containing the url for next page (if exists) and an array of comments
-    * Example:
-    *    array(
-    *       "nextPage" => "/api/comments?page=2",
-    *       "comments" => array(
-    *           array(
-    *               "id" => 15,
-    *               "comment" => "Some comment"
-    *           )
-    *       )
-    *    )
     */
    // public function getCommentaries($cursor, $direction, $count=25) {
-    public function getCommentaries($page, $perPage, $count=25) {
-        if (!is_numeric($page) || $page < 1) throw new Exception('Illegal argument for getCommentaries $page');
-        if (!is_numeric($perPage) || $page < 1) throw new Exception('Illegal argument for getCommentaries $perPage');
-
-        $nextPage = null;
-        $sql = 'SELECT id, commentary FROM text ORDER BY id DESC LIMIT ' . (($page - 1) * $perPage) . ', ' . ($perPage + 1);
-        $result = $this->database->query($sql)->fetchAll(PDO::FETCH_ASSOC);
-        $count = count($result);
-        if ($count > $perPage) {
-            $nextPage = $this->baseUrl . "comments?page=" . ($page + 1);
-            array_pop($result);
+    public function getCommentaries($needle, $direction, $perPage=25) {
+        if (empty($needle)) { //latest coments
+            $sql = 'SELECT id, commentary FROM text ORDER BY id DESC LIMIT '.$perPage;
+        } elseif (is_numeric($needle)) {
+            if ($direction === self::COMMENTS_NEWER) {
+                $sql = 'SELECT * FROM (SELECT id, commentary FROM text WHERE id > '.$needle.' ORDER BY id LIMIT '.$perPage.') sub ORDER BY id DESC';
+            } elseif ($direction === self::COMMENTS_OLDER) {
+                $sql = 'SELECT id, commentary FROM text WHERE id < '.$needle.' ORDER BY id DESC LIMIT '.$perPage;
+            } else {
+                throw new Exception("Illegal argument for getCommentaries $direction");
+            }
+        } else {
+            throw new Exception("Illegal argument for getCommentaries $needle");
         }
-        $retval = array(
-            "nextPage" => $nextPage,
-            "commentaries" => $result
-        );
-        return $retval;
+        if (!is_numeric($perPage) || $perPage < 1) throw new Exception('Illegal argument for getCommentaries $perPage');
+        $result = $this->database->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
     }
 
     public function activateSubscriber($uuid) {

@@ -11,30 +11,50 @@ require_once('../vendor/autoload.php');
 
 $botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
 $cache = new Cache(Config::REDIS_DSN);
-$analytics = new Analytics();
-$route = rtrim($_REQUEST["param"], '/');
-Resque::setBackend('localhost:6379');
+$route = empty($_REQUEST["param"]) ? "" : rtrim($_REQUEST["param"], '/');
+$start = microtime(true);
+$query = $_REQUEST;
+$cached = true;
+$exception = false;
+$stacktrace = false;
 try {
     $resultObject = null;
 
     //Generate a cache key from the request
-    $cacheKey = $cache->generateCacheKey($route);
+    $cacheKey = $cache->generateCacheKey();
     $cacheWhitelist = array( "trigger_push" );
     //Check if the request is cached
     if (in_array($route, $cacheWhitelist) || (($resultObject = $cache->get($cacheKey)) === false)) {
-        error_log("Cache miss : " . $route);
+        $cached = false;
         /*
          *  GET /comments
          *      Retrieves a list of comments.
          *
          *      Parameters:
-         *          page : page number to retrieve (default = 1)
-         *          limit: entries retrieved per request (default = 25)
+         *          after  : (optional, mutually exclusive to before) Retrieve the commentaries newer than the comment ID supplied. (exclusive)
+         *          before : (optional, mutually exclusive to after) Retrieve the commentaries older than the comment ID supplied. (exclusive)
+         *              If no argument is supplied, latest 25 commentaries are retrieved.
+         *          limit: (optional) entries retrieved per request (default = 25)
+         #
          */
         if ($route == "commentary") {
-            $page = !empty($_REQUEST["page"]) ? $_REQUEST["page"] : 1;
+            $needle = null;
+            $direction = null;
+            if (!empty($_REQUEST["after"]) && is_numeric($_REQUEST["after"])) {
+                $needle = $_REQUEST["after"];
+                $direction = BotB::COMMENTS_NEWER;
+            } elseif (!empty($_REQUEST["before"]) && is_numeric($_REQUEST["before"])) {
+                $needle = $_REQUEST["before"];
+                $direction = BotB::COMMENTS_OLDER;
+            } else {
+                if (empty($_REQUEST["before"]) && empty($_REQUEST["after"])) {
+                    $needle = false;
+                } else {
+                    throw new Exception("Need one params 'after' or 'before' supplied with a valid ID");
+                }
+            }
             $perPage = !empty($_REQUEST["limit"]) ? $_REQUEST["limit"] : 25;
-            $resultObject = $botb->getCommentaries($page, $perPage);
+            $resultObject = $botb->getCommentaries($needle, $direction, $perPage);
         }
         /*
          *  GET /stats
@@ -67,7 +87,6 @@ try {
     }
 
     Renderer::write($resultObject);
-    $analytics->storeRouteEvent($route, $_REQUEST);
 } catch (Exception $e) {
     http_response_code(500);
     if (Config::DEBUG == '1')
@@ -76,7 +95,8 @@ try {
         $msg = "There was a problem completing your request. Please contact the admins.";
 
     Renderer::write(array( "exception" => $msg ));
-
-    $analytics->storeEvent("error", $e);
-    error_log($e);
+    $exception = $e->getMessage();
+    $stacktrace = $e->getTraceAsString();
 }
+$duration = microtime(true) - $start;
+Analytic::record($route, $query, $cached, $start, $duration, $exception, $stacktrace);

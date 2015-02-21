@@ -5,9 +5,9 @@
  *
  */
 
-class Add_Subscriber {
+class Add_Subscriber extends Base_Job {
 
-    public function perform()
+    public function perform_wrapped()
     {
     	$botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
 		$uuid = $this->args['uuid'];

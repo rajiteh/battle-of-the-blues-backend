@@ -7,7 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Add_Subscriber' => $baseDir . '/jobs/Add_Subscriber.php',
-    'Analytics' => $baseDir . '/includes/analytics.php',
+    'Analytic' => $baseDir . '/includes/analytic.php',
+    'Base_Job' => $baseDir . '/jobs/Base_Job.php',
     'BotB' => $baseDir . '/includes/botb.php',
     'Cache' => $baseDir . '/includes/cache.php',
     'Config' => $baseDir . '/includes/config.php',
@@ -18,4 +19,5 @@ return array(
     'Pusher' => $baseDir . '/includes/pusher.php',
     'Renderer' => $baseDir . '/includes/renderer.php',
     'Send_Push_Message' => $baseDir . '/jobs/Send_Push_Message.php',
+    'Store_Analytic' => $baseDir . '/jobs/Store_Analytic.php',
 );
