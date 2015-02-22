@@ -31,8 +31,7 @@ $stacktrace = null;
 //Init cache
 $cache = new Cache(Config::REDIS_DSN);
 //Detect the current route by checking 'param'
-$route = empty($_REQUEST["param"]) ? "" : rtrim($_REQUEST["param"], '/');
-
+$route = empty($_REQUEST["param"]) ? "" : trim($_REQUEST["param"], '/ ');
 try {
     $resultObject = null;
 

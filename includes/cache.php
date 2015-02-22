@@ -16,7 +16,7 @@ class Cache {
         	$this->redis->auth($url['pass']);
         }
         if (!empty($url['path'])) {
-        	$db = (int) ltrim($url['path'], '/');
+        	$db = (int) trim($url['path'], '/');
         	$this->redis->select((int) $db);
         }
         if (defined('Redis::SERIALIZER_IGBINARY')) {
