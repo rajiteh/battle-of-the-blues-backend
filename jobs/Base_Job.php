@@ -13,8 +13,8 @@ abstract class Base_Job
 		$start = microtime(true);
 		$route = get_called_class();
 		$query = $this->args;
-		$exception = false;
-		$stacktrace = false;
+		$exception = null;
+		$stacktrace = null;
 		try {
 			$this->perform_wrapped();
 		} catch (Exception $e) {
@@ -22,6 +22,6 @@ abstract class Base_Job
 			$stacktrace = $e->getTraceAsString();
 		}
 		$duration = microtime(true) - $start;
-		Analytic::record($route, $query, false, $start, $duration, $exception, $stacktrace);
+		Analytic::record($route, BotB::TYPE_JOB, $query, null, $start, $duration, null, $exception, $stacktrace);
 	}
 }

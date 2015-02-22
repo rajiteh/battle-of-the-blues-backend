@@ -8,7 +8,6 @@
 class Pusher {
 
 	public static function queueSubscription($uuid) {
-		error_log("Queueing subscription");
 		$args = array(
 			'uuid' => $uuid,
 			'type' => 'subscribe'
@@ -17,7 +16,6 @@ class Pusher {
 	}
 
 	public static function queueUnsubscription($uuid) {
-		error_log("Queueing unsubscription");
 		$args = array(
 			'uuid' => $uuid,
 			'type' => 'unsubscribe'

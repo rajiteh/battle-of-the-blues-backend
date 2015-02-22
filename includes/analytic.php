@@ -7,14 +7,15 @@
 
 class Analytic {
 
-    public static function record($route, $query, $cached, $start, $duration, $exception=false, $stacktrace=false) {
-    	error_log("Queuing analytics");
+    public static function record($name, $type, $query, $cached, $start, $duration, $ip, $exception, $stacktrace) {
 		$args = array(
-			'route' => $route,
+			'name' => $name,
+			'type' => $type,
 			'query' => $query,
 			'cached' => $cached,
 			'start' =>  $start,
 			'duration' => $duration,
+			'ip' => $ip,
 			'exception' => $exception,
 			'stacktrace' => $stacktrace
 			);

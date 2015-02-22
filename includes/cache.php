@@ -29,8 +29,8 @@ class Cache {
     	$req = $_REQUEST;
     	unset($req["id"]);
     	unset($req["callback"]);
+        unset($req["_"]);
     	$wot = $_SERVER["REQUEST_METHOD"].implode(":",array_keys($req)).implode(":",$req);
-    	error_log("CACHE KEY " . $wot);
         return md5($wot);
     }
 

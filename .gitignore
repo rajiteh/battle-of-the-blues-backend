@@ -2,3 +2,6 @@ Procfile
 .DS_STORE
 .vagrant
 Vagrantfile
+/.phpintel
+/worker/*.PID
+/logs/*.log

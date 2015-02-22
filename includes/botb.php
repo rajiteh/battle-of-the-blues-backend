@@ -9,9 +9,12 @@ class BotB {
     const COMMENTS_OLDER = 0x01,
           COMMENTS_NEWER = 0X02;
 
+    const TYPE_ROUTE = 'route',
+          TYPE_JOB = 'job';
+
     private static $pdoOptions = array(
-        PDO::ATTR_EMULATE_PREPARES => true,
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_PERSISTENT => true
     );
     protected $database;
     protected $baseUrl;
@@ -31,15 +34,15 @@ class BotB {
     */
     public function getStats() {
         $scores = $this->getScores();
-        $scores["at_crease"]  = $this->getPlayers();
+        $scores["crease"]  = $this->getPlayers();
         return $scores;
     }
 
    /**
     * Retrieve commentary from the database.
     */
-   // public function getCommentaries($cursor, $direction, $count=25) {
     public function getCommentaries($needle, $direction, $perPage=25) {
+        if (!is_numeric($perPage) || $perPage < 1) throw new Exception('Illegal argument for getCommentaries : ${perPage}');
         if (empty($needle)) { //latest coments
             $sql = 'SELECT id, commentary FROM text ORDER BY id DESC LIMIT '.$perPage;
         } elseif (is_numeric($needle)) {
@@ -48,32 +51,36 @@ class BotB {
             } elseif ($direction === self::COMMENTS_OLDER) {
                 $sql = 'SELECT id, commentary FROM text WHERE id < '.$needle.' ORDER BY id DESC LIMIT '.$perPage;
             } else {
-                throw new Exception("Illegal argument for getCommentaries $direction");
+                throw new Exception("Illegal argument for getCommentaries : ${direction}");
             }
         } else {
-            throw new Exception("Illegal argument for getCommentaries $needle");
+            throw new Exception("Illegal argument for getCommentaries : ${needle}");
         }
-        if (!is_numeric($perPage) || $perPage < 1) throw new Exception('Illegal argument for getCommentaries $perPage');
         $result = $this->database->query($sql)->fetchAll(PDO::FETCH_ASSOC);
         return $result;
     }
 
     public function activateSubscriber($uuid) {
-        $sql = 'INSERT INTO subscribers (uuid) VALUES("'.$uuid.'") ON DUPLICATE KEY UPDATE last_seen=NOW(), expired=0';
-        $result = $this->database->query($sql);
+        $stmt = $this->database->prepare('INSERT INTO subscribers (uuid) VALUES(:uuid) ON DUPLICATE KEY UPDATE last_seen=NOW(), expired=0');
+        $stmt->bindParam(':uuid',$uuid);
+        $stmt->execute();
         return true;
     }
 
     public function deactivateSubscriber($uuid) {
-        $sql = 'UPDATE subscribers SET expired=1 WHERE uuid = "'.$uuid.'"';
-        $result = $this->database->query($sql);
+        $stmt = $this->database->prepare('UPDATE subscribers SET expired=1 WHERE uuid = :uuid');
+        $stmt->bindParam(':uuid',$uuid);
+        $stmt->execute();
+        return true;
     }
 
     public function getSubscribers($limit=false, $offset=false) {
         $sql = 'SELECT uuid FROM subscribers WHERE expired=0';
         if ($limit != false) {
+            if (!is_numeric($limit)) { throw new Exception("Invalid argument for getSubscribers : ${limit}"); }
             $sql = $sql." LIMIT ".$limit;
             if ($offset != false) {
+                if (!is_numeric($offset)) { throw new Exception("Invalid argument for getSubscribers : ${offset}"); }
                 $sql = $sql." OFFSET ".$offset;
             }
         }
@@ -87,6 +94,29 @@ class BotB {
         $result = $this->database->query($sql);
     }
 
+    public function storeAnalytic($name, $type, $query, $cached, $start, $duration, $ip, $exception, $stacktrace) {
+        if (!($type == self::TYPE_JOB || $type == self::TYPE_ROUTE)) { throw new Exception("Invalid argument type for storeAnalytic : ${type}");}
+        if (!is_string($query)) {
+            $query = json_encode($query);
+        }
+        if ($cached == true) {
+            $cached = 1;
+        } else {
+            $cached = 0;
+        }
+        $stmt = $this->database->prepare("INSERT INTO analytics (name, type, query, cached, start, duration, ip, exception, stacktrace)".
+            " VALUES (:name, :type, :query, :cached, :start, :duration, :ip, :exception, :stacktrace)");
+        $stmt->bindParam(':name', $name);
+        $stmt->bindParam(':type', $type);
+        $stmt->bindParam(':query', $query);
+        $stmt->bindParam(':cached', $cached);
+        $stmt->bindParam(':start', $start);
+        $stmt->bindParam(':duration', $duration);
+        $stmt->bindParam(':ip', $ip);
+        $stmt->bindParam(':exception', $exception);
+        $stmt->bindParam(':stacktrace', $stacktrace);
+        $stmt->execute();
+    }
     // Private //
     // ======= //
 
@@ -102,21 +132,6 @@ class BotB {
 
     // == Player
 
-   /**
-    * Gets information about a player.
-    *
-    * Retrieves id, ball, name and the number of runs of a player.
-    *
-    * @param integer $id Numerical player ID.
-    *
-    * @return Key value mapping of the player data.
-    */
-    private function getPlayer($id) {
-        if (!is_numeric($id)) throw new Exception('Illegal argument for getPlayer $id');
-        $query = $this->database->query("SELECT * FROM players WHERE id = ${id}");
-        $player = $query->fetch(PDO::FETCH_ASSOC);
-        return $player;
-    }
 
    /**
     * Gets information about all players.
@@ -132,24 +147,6 @@ class BotB {
             array_push($retval, $row);
         }
         return $retval;
-    }
-
-    // Helpers //
-    // ======= //
-
-   /**
-    * Helper function to construct a key value map of player data
-    *
-    * @param a PDO fetch result from 'players' table
-    *
-    * @return key value mapping of player data
-    */
-    private function generatePlayerArray($row) {
-        return array(
-            'name' => $row['name'],
-            'score' => $row['runs'],
-            'ball' => $row['ball']
-        );
     }
 
 }

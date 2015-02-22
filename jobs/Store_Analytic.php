@@ -8,9 +8,9 @@
 class Store_Analytic {
 
 	public function perform() {
-		ob_start();
-		var_dump($this->args);
-		error_log("STORING ANALYTICS!\n\t".  ob_get_clean());
+		$botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
+		$args = $this->args;
+		$botb->storeAnalytic($args['name'], $args['type'], $args['query'], $args['cached'], $args['start'], $args['duration'], $args['ip'], $args['exception'], $args['stacktrace']);
 	}
 
 }

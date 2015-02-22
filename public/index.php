@@ -6,17 +6,33 @@
  */
 
 require_once('../vendor/autoload.php');
-//Print JSON Headers
 
+function getIP() {
+        $headers = $_SERVER;
+        if (array_key_exists('X-Forwarded-For',$headers)) {
+            $the_ip = $headers['X-Forwarded-For'];
+        } elseif (array_key_exists( 'HTTP_X_FORWARDED_FOR', $headers)) {
+            $the_ip = $headers['HTTP_X_FORWARDED_FOR'];
+        } else {
+            $the_ip = $headers['REMOTE_ADDR'];
+        }
+        return $the_ip;
+}
 
-$botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
-$cache = new Cache(Config::REDIS_DSN);
-$route = empty($_REQUEST["param"]) ? "" : rtrim($_REQUEST["param"], '/');
+//Analytic var initialization
 $start = microtime(true);
 $query = $_REQUEST;
+$ip = getIP();
 $cached = true;
-$exception = false;
-$stacktrace = false;
+$exception = null;
+$stacktrace = null;
+//End analytic var initialization
+
+//Init cache
+$cache = new Cache(Config::REDIS_DSN);
+//Detect the current route by checking 'param'
+$route = empty($_REQUEST["param"]) ? "" : rtrim($_REQUEST["param"], '/');
+
 try {
     $resultObject = null;
 
@@ -25,7 +41,9 @@ try {
     $cacheWhitelist = array( "trigger_push" );
     //Check if the request is cached
     if (in_array($route, $cacheWhitelist) || (($resultObject = $cache->get($cacheKey)) === false)) {
-        $cached = false;
+        $cached = false; //mark as an uncached request for analytics
+        //Create models
+        $botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
         /*
          *  GET /comments
          *      Retrieves a list of comments.
@@ -66,8 +84,6 @@ try {
         elseif ($route == "trigger_push") {
             Pusher::queuePushMessage("SCORE UPDATE!");
             $resultObject = array("triggered" => true);
-        } else {
-            //throw new Exception("Route not found.");
         }
         //Update the cache
         $cache->set($cacheKey, $resultObject);
@@ -90,7 +106,7 @@ try {
 } catch (Exception $e) {
     http_response_code(500);
     if (Config::DEBUG == '1')
-        throw $e;
+        $msg = $e->getMessage();
     else
         $msg = "There was a problem completing your request. Please contact the admins.";
 
@@ -98,5 +114,6 @@ try {
     $exception = $e->getMessage();
     $stacktrace = $e->getTraceAsString();
 }
+
 $duration = microtime(true) - $start;
-Analytic::record($route, $query, $cached, $start, $duration, $exception, $stacktrace);
+Analytic::record($route, BotB::TYPE_ROUTE, $query, $cached, $start, $duration, $ip, $exception, $stacktrace);
