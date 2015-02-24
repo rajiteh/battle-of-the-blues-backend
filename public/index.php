@@ -118,7 +118,7 @@ try {
         elseif ($route == "unsubscribe") {
             //Mark the user as inactive
             Pusher::queueUnsubscription($_GET['id']);
-            $analytics = array("unsubscription_accepted" => true);
+            $resultObject = array("unsubscription_accepted" => true);
         } else {
             throw new Exception("Unexpected parameter ID with hwid.");
         }
