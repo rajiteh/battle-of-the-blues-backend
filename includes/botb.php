@@ -90,7 +90,6 @@ class BotB {
 
     public function expireSubscribers($before) {
         $sql = 'UPDATE subscribers SET expired=1 WHERE last_seen < \''.$before.'\'';
-        echo $sql."\n";
         $result = $this->database->query($sql);
     }
 

@@ -1,8 +1,15 @@
 {
     "name": "botb/battle-of-the-blues-backend",
+    "repositories": [
+        {
+            "url": "https://github.com/rajiteh/Memory.git",
+            "type": "git"
+        }
+    ],
     "require": {
     	"chrisboulton/php-resque": "dev-master",
-    	"gomoob/php-pushwoosh": "1.0.x"
+    	"gomoob/php-pushwoosh": "1.0.x",
+        "jamm/memory": "dev-rajiteh-patch-1"
     },
     "autoload": {
     	"classmap" : [

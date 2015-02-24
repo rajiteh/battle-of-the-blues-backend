@@ -6,6 +6,8 @@ class Config {
 		  DATABASE_PASSWORD = 'botb',
 		  DEBUG = '1',
 		  REDIS_DSN = 'redis://localhost:6379/0',
+          CACHE_TTL = 30,
+          SUBSCRIBER_TTL = 60,
 		  PUSHWOOSH_APP = '***REMOVED***',
 		  PUSHWOOSH_TOKEN = '***REMOVED***';
 

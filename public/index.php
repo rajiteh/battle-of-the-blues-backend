@@ -1,51 +1,55 @@
 <?php
 
 /*
- * Battle of the Blues Backend 
+ * Battle of the Blues Backend
  *
  */
 
-require_once('../vendor/autoload.php');
 
-function getIP() {
-        $headers = $_SERVER;
-        if (array_key_exists('X-Forwarded-For',$headers)) {
-            $the_ip = $headers['X-Forwarded-For'];
-        } elseif (array_key_exists( 'HTTP_X_FORWARDED_FOR', $headers)) {
-            $the_ip = $headers['HTTP_X_FORWARDED_FOR'];
-        } else {
-            $the_ip = $headers['REMOTE_ADDR'];
-        }
-        return $the_ip;
-}
+require_once __DIR__."/../vendor/autoload.php";
 
-//Analytic var initialization
-$start = microtime(true);
-$query = $_REQUEST;
-$ip = getIP();
-$cached = true;
-$exception = null;
-$stacktrace = null;
-//End analytic var initialization
+//Analytics
+$analytics = array();
+$analytics['start'] = microtime(true);
+$analytics['query'] = $_REQUEST;
+$analytics['ip'] = Helpers::getIP();
+$analytics['cached'] = true;
+$analytics['exception'] = null;
+$analytics['stacktrace'] = null;
 
-//Init cache
-$cache = new Cache(Config::REDIS_DSN);
-//Detect the current route by checking 'param'
+$cacheWhitelist = array( "trigger_push" ); //Routes that should not be cached
+$cacheTTL = Config::CACHE_TTL; // How long before cache is expired
+$cacheKey = Helpers::generateCacheKey(); //Generate a cache key from the request
+$resultObject = array(); //Object to hold the cached/generated response
+
+//Get the URL endpoint for this request
 $route = empty($_REQUEST["param"]) ? "" : trim($_REQUEST["param"], '/ ');
-try {
-    $resultObject = null;
 
-    //Generate a cache key from the request
-    $cacheKey = $cache->generateCacheKey();
-    $cacheWhitelist = array( "trigger_push" );
+try {
+
+    //Initialize cache
+    $cache = new \Jamm\Memory\PhpRedisObject('botbCache');
+
     //Check if the request is cached
-    if (in_array($route, $cacheWhitelist) || (($resultObject = $cache->get($cacheKey)) === false)) {
-        $cached = false; //mark as an uncached request for analytics
-        //Create models
-        $botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
+    if (in_array($route, $cacheWhitelist) || //If the request is not cachable?
+        (
+            $cache->acquire_key($cacheKey, $cacheUnlocker) && //Acquire exclusive access to the key, make sure no other worker is currently querying the database
+            ($resultObject = $cache->read($cacheKey)) === false  //If found in cache, assign to resultObject, else proceed.
+         )
+        ) {
+
+        //Update analytics
+        $analytics['cached'] = false;
+
+        //Establish the db connection
+        $botb = new BotB(Config::DATABASE_STRING,
+            Config::DATABASE_USER,
+            Config::DATABASE_PASSWORD);
+
+        //Start checking the routes.
         /*
-         *  GET /comments
-         *      Retrieves a list of comments.
+         *  GET /commentary
+         *      Retrieves a list of commentaries.
          *
          *      Parameters:
          *          after  : (optional, mutually exclusive to before) Retrieve the commentaries newer than the comment ID supplied. (exclusive)
@@ -57,22 +61,29 @@ try {
         if ($route == "commentary") {
             $needle = null;
             $direction = null;
-            if (!empty($_REQUEST["after"]) && is_numeric($_REQUEST["after"])) {
+            if (!empty($_REQUEST["after"]) &&
+                is_numeric($_REQUEST["after"])) {
                 $needle = $_REQUEST["after"];
                 $direction = BotB::COMMENTS_NEWER;
-            } elseif (!empty($_REQUEST["before"]) && is_numeric($_REQUEST["before"])) {
+            } elseif (!empty($_REQUEST["before"]) &&
+                is_numeric($_REQUEST["before"])) {
                 $needle = $_REQUEST["before"];
                 $direction = BotB::COMMENTS_OLDER;
             } else {
-                if (empty($_REQUEST["before"]) && empty($_REQUEST["after"])) {
+                if (empty($_REQUEST["before"]) &&
+                    empty($_REQUEST["after"])) {
                     $needle = false;
                 } else {
-                    throw new Exception("Need one params 'after' or 'before' supplied with a valid ID");
+                    throw new Exception("Need one params 'after' or 'before'".
+                                        " supplied with a valid ID");
                 }
             }
             $perPage = !empty($_REQUEST["limit"]) ? $_REQUEST["limit"] : 25;
-            $resultObject = $botb->getCommentaries($needle, $direction, $perPage);
+            $resultObject = $botb->getCommentaries($needle,
+                                                   $direction,
+                                                   $perPage);
         }
+
         /*
          *  GET /stats
          *      Retrieves current match statistics.
@@ -80,39 +91,69 @@ try {
         elseif ($route == "stats") {
             $resultObject = $botb->getStats();
         }
+
+        /*
+         * GET /trigger_push
+         *      Sends a push notification to all active subscribers
+         */
         elseif ($route == "trigger_push") {
             Pusher::queuePushMessage("SCORE UPDATE!");
             $resultObject = array("triggered" => true);
         }
+
         //Update the cache
-        $cache->set($cacheKey, $resultObject);
+        $cache->save($cacheKey, $resultObject, $cacheTTL);
+
+        //Unlock the cache key (this may not be needed?)
+        if (!empty($cacheUnlocker)) $cache->unlock_key($cacheUnlocker);
     };
 
+    //If this is a subscribe-related request
     if (!empty($_GET['id']) && $_GET['id'] != 'false') {
         if ($route == "stats") {
+            //Mark the user as active
             Pusher::queueSubscription($_GET['id']);
-            $resultObject["subscription_accepted"] = true;
+            $analytics["subscription_accepted"] = true;
         }
         elseif ($route == "unsubscribe") {
+            //Mark the user as inactive
             Pusher::queueUnsubscription($_GET['id']);
-            $resultObject = array("unsubscription_accepted" => true);
+            $analytics = array("unsubscription_accepted" => true);
         } else {
             throw new Exception("Unexpected parameter ID with hwid.");
         }
     }
 
+    if (Config::DEBUG == '1')
+        $resultObject['debugResponse'] = $analytics;
     Renderer::write($resultObject);
 } catch (Exception $e) {
+    //Update analytic object
+    $analytics['exception'] = $e->getMessage();
+    $analytics['stacktrace'] = $e->getTraceAsString();
+
     http_response_code(500);
-    if (Config::DEBUG == '1')
-        $msg = $e->getMessage();
-    else
-        $msg = "There was a problem completing your request. Please contact the admins.";
-
-    Renderer::write(array( "exception" => $msg ));
-    $exception = $e->getMessage();
-    $stacktrace = $e->getTraceAsString();
+    if (Config::DEBUG == '1') {
+        $resultObject['debugResponse'] = $analytics;
+        Renderer::write($resultObject);
+    } else {
+        $msg = "There was a problem completing your request. Please contact ".
+               "the admins.";
+        Renderer::write(array( "exception" => $msg ));
+    }
 }
+//Store the time taken for the entire request
+$analytics['duration'] = microtime(true) - $analytics['start'];
 
-$duration = microtime(true) - $start;
-Analytic::record($route, BotB::TYPE_ROUTE, $query, $cached, $start, $duration, $ip, $exception, $stacktrace);
+//Record analytic
+Analytic::record(
+    $route,
+    BotB::TYPE_ROUTE,
+    $analytics['query'],
+    $analytics['cached'],
+    $analytics['start'],
+    $analytics['duration'],
+    $analytics['ip'],
+    $analytics['exception'],
+    $analytics['stacktrace']
+    );

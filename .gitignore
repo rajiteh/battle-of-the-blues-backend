@@ -5,3 +5,7 @@ Vagrantfile
 /.phpintel
 /worker/*.PID
 /logs/*.log
+.htpasswd
+/vendor/
+composer.lock
+supervisord_prod.conf

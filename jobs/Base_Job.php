@@ -20,8 +20,8 @@ abstract class Base_Job
 		} catch (Exception $e) {
 			$exception = $e->getMessage();
 			$stacktrace = $e->getTraceAsString();
+			$duration = microtime(true) - $start;
+			Analytic::record($route, BotB::TYPE_JOB, $query, null, $start, $duration, null, $exception, $stacktrace);
 		}
-		$duration = microtime(true) - $start;
-		Analytic::record($route, BotB::TYPE_JOB, $query, null, $start, $duration, null, $exception, $stacktrace);
 	}
 }
