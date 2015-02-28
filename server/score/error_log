@@ -1,0 +1,52 @@
+[08-Feb-2015 13:57:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[08-Feb-2015 14:19:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[08-Feb-2015 16:59:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[09-Feb-2015 07:52:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[09-Feb-2015 07:55:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[09-Feb-2015 08:01:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[09-Feb-2015 08:03:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[09-Feb-2015 08:05:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'botb'@'127.0.0.1' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[09-Feb-2015 08:06:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'botb'@'localhost' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[09-Feb-2015 08:07:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'botb'@'localhost' (using password: YES)' in /home/imaadh/public_html/botb/Battle/score/medoo.php:125
+Stack trace:
+#0 /home/imaadh/public_html/botb/Battle/score/score_admin.php(5): medoo->__construct('botb')
+#1 {main}
+  thrown in /home/imaadh/public_html/botb/Battle/score/medoo.php on line 125
+[12-Feb-2015 09:29:30 UTC] PHP Fatal error:  Call to undefined function indexOf() in /home/imaadh/public_html/botb/Battle/score/score_admin.php on line 51
+[12-Feb-2015 09:34:47 UTC] PHP Fatal error:  Call to undefined function indexOf() in /home/imaadh/public_html/botb/Battle/score/score_admin.php on line 52

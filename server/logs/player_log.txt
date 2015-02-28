@@ -1,0 +1,290 @@
+::1 - [27/February/2014 10:21:04] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:21:16] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:21:25] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:21:27] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:21:28] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:24:30] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:24:42] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:25:15] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:25:17] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:25:49] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:26:15] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:27:50] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:30:03] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:30:26] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:35:46] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:38:04] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:38:27] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:38:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:39:48] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:39:50] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:39:56] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:41:24] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:49:56] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:51:11] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:56:49] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:02:04] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:02:26] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:02:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:02:50] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:02:59] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:04:05] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:04:14] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:04:27] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:04:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:04:54] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:05:07] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:05:15] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:05:27] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:05:38] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:06:37] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:27:59] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:30:57] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:36] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:37] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:38] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:40] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:41] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:43] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:44] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:45] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:46] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:31:47] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:32:35] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:35:49] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:37:00] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:37:11] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:38:13] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:39:42] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:39:56] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:46:21] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:47:23] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:49:23] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:50:06] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:51:46] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:51:56] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:56:09] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:57:56] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:58:07] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:58:23] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:58:29] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:58:35] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:58:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 11:59:21] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:00:02] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:01:01] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:01:21] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:01:34] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:01:42] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:01:56] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:01:58] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:02:09] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:02:28] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:03:36] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:03:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:03:43] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:04:08] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:04:14] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:04:22] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:04:29] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:04:52] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:05:34] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:06:10] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:06:19] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:06:45] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:06:56] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:07:12] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:07:18] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:09:08] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:09:29] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:10:07] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:10:31] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:10:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:10:48] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:11:04] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:11:09] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:11:38] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:11:52] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:12:00] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:12:13] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:12:14] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:12:15] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:12:46] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:17:34] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:17:38] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:17:51] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:19:04] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:19:18] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:19:26] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:43:36] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:45:17] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:45:43] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:47:53] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:48:59] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:51:05] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:51:25] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:51:44] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:51:49] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:55:37] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:56:14] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:56:23] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:56:26] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:56:27] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:06:32] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:06:33] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:07:52] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:10:31] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:11:11] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:12:08] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:12:52] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:13:21] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:14:00] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:15:25] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:16:41] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:17:06] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:17:34] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:17:50] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:01] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:03] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:04] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:05] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:06] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:07] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:08] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:09] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:10] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:19:15] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:20:13] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:35:19] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:35:52] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:40:40] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 04:05:16] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 04:35:34] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 04:38:25] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 04:40:14] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:26:30] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:27:10] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:27:21] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:28:18] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:28:54] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:29:12] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:29:46] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:30:21] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:30:35] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:31:11] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:41:57] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:17:48] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:18:11] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:42:44] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:43:26] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+175.157.239.59 - [27/February/2014 07:56:40] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.168.9 - [27/February/2014 07:58:55] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.168.9 - [27/February/2014 08:04:05] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.168.9 - [27/February/2014 08:05:15] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.168.9 - [27/February/2014 09:09:20] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.34 - [28/February/2014 07:09:44] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+112.134.161.230 - [01/March/2014 07:24:55] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.134.94 - [01/March/2014 08:49:42] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.172.5 - [02/March/2014 05:25:40] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.172.46 - [02/March/2014 08:44:21] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.18 - [03/March/2014 06:22:25] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.18 - [03/March/2014 06:59:58] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+112.135.27.91 - [04/March/2014 05:43:00] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.27.91 - [04/March/2014 05:43:48] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.48.174 - [05/March/2014 09:14:19] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.20 - [06/March/2014 05:18:54] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.172.52 - [06/March/2014 05:46:10] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.135.69.28 - [07/March/2014 07:38:05] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.9.85 - [07/March/2014 03:29:29] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.160.193 - [07/March/2014 04:03:24] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+175.157.220.12 - [08/March/2014 10:37:43] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.21.166.1 - [09/March/2014 12:55:45] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.163.11 - [13/March/2014 04:32:59] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.11 - [13/March/2014 04:42:58] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.31.126 - [13/March/2014 05:12:14] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.31.126 - [13/March/2014 05:14:17] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.31.126 - [13/March/2014 05:14:29] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.31.126 - [13/March/2014 05:14:34] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.56 - [13/March/2014 05:21:49] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.56 - [13/March/2014 05:22:05] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.207.153 - [13/March/2014 05:38:51] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.207.153 - [13/March/2014 05:39:26] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.207.153 - [13/March/2014 05:40:02] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+175.157.207.153 - [13/March/2014 05:40:17] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.50 - [13/March/2014 05:49:36] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.50 - [13/March/2014 05:50:01] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.50 - [13/March/2014 05:51:26] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.50 - [13/March/2014 05:51:27] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.50 - [13/March/2014 05:52:17] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.60 - [13/March/2014 06:06:27] /Battle/player/player_admin.php Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/32.0.1700.20 Mobile/11B511 Safari/9537.53
+::1 - [13/March/2014 06:09:11] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.63 - [13/March/2014 06:31:39] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.63 - [13/March/2014 06:36:01] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.45 - [13/March/2014 06:50:11] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.51.45 - [13/March/2014 08:25:46] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 08:45:04] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 09:00:10] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 09:02:08] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 09:11:41] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+103.247.51.45 - [13/March/2014 09:18:36] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+103.247.51.45 - [13/March/2014 09:20:34] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+103.247.51.45 - [13/March/2014 09:26:59] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+103.247.51.45 - [13/March/2014 09:42:39] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+103.247.51.45 - [13/March/2014 09:48:58] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+103.247.51.45 - [13/March/2014 09:58:25] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+103.247.51.45 - [13/March/2014 10:04:42] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 10:23:46] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 11:05:26] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.49.153 - [13/March/2014 12:15:21] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.49.153 - [13/March/2014 12:15:22] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.49.153 - [13/March/2014 12:16:33] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.49.153 - [13/March/2014 12:20:11] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.49.153 - [13/March/2014 12:20:12] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.49.153 - [13/March/2014 12:38:15] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.134.23.1 - [13/March/2014 01:17:45] /Battle/player/player_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.40 - [14/March/2014 04:32:55] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.172.40 - [14/March/2014 04:48:32] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 04:52:20] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.51.48 - [14/March/2014 05:05:24] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.163.61 - [14/March/2014 09:56:37] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.67 - [14/March/2014 10:24:39] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.67 - [14/March/2014 10:26:07] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.67 - [14/March/2014 10:56:30] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.67 - [14/March/2014 11:59:29] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.172.14 - [15/March/2014 04:25:39] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.1 - [15/March/2014 04:58:20] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.1 - [15/March/2014 05:01:53] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.1 - [15/March/2014 05:44:38] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+103.247.51.1 - [15/March/2014 06:21:02] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+103.247.50.174 - [15/March/2014 06:40:37] /BATTLE/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.48.183 - [15/March/2014 07:15:08] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.48.183 - [15/March/2014 07:17:20] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.50.172 - [15/March/2014 07:31:08] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.50.180 - [15/March/2014 08:07:01] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 08:16:18] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 08:28:22] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 08:28:52] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 08:37:42] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 08:50:09] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 08:52:30] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 09:07:56] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 09:08:21] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 09:09:20] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 09:21:43] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.26 - [15/March/2014 09:25:06] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.50.177 - [15/March/2014 09:25:55] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.64 - [15/March/2014 10:01:19] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.48.140 - [15/March/2014 12:22:01] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.135.115.214 - [16/March/2014 03:03:35] /battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+123.231.106.111 - [09/February/2015 08:16:00] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:16:06] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:27:57] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:30:00] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:33:39] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 09:32:20] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.96.168 - [09/February/2015 12:53:51] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.51.127 - [09/February/2015 04:12:55] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.106.213 - [10/February/2015 08:23:16] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+61.245.163.80 - [22/February/2015 07:31:43] /Battle/player/player_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+175.157.83.186 - [22/February/2015 09:10:34] /Battle/player/player_admin.php Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36

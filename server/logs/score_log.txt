@@ -1,0 +1,243 @@
+::1 - [27/February/2014 08:36:13] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:16:18] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 10:20:47] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 12:51:21] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:20:24] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:20:50] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 01:21:34] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:03:29] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:03:54] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:04:13] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:04:32] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:04:46] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:08:03] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:10:52] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:11:03] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:11:09] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:15:57] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:26:24] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:34:17] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:36:09] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:36:27] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:38:23] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:38:30] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:38:42] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 05:39:50] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:01:47] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:03:59] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:21:52] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:42:42] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [27/February/2014 06:59:03] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+175.157.239.59 - [27/February/2014 07:16:21] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.168.9 - [27/February/2014 07:43:24] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.168.9 - [27/February/2014 07:50:06] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+112.134.46.75 - [27/February/2014 08:11:45] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.168.9 - [27/February/2014 08:33:25] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.34 - [28/February/2014 07:05:43] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.34 - [28/February/2014 07:19:43] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+112.134.134.94 - [01/March/2014 10:02:52] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.141.148 - [02/March/2014 06:13:37] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.172.5 - [02/March/2014 05:12:21] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+112.134.135.188 - [02/March/2014 06:30:30] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.135.188 - [02/March/2014 08:29:00] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.135.188 - [02/March/2014 08:30:08] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.172.46 - [02/March/2014 08:40:53] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.172.24 - [02/March/2014 08:47:13] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+112.135.159.95 - [03/March/2014 05:14:13] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.159.95 - [03/March/2014 05:18:52] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.159.95 - [03/March/2014 05:26:05] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.159.95 - [03/March/2014 05:47:23] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.159.95 - [03/March/2014 05:58:58] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.159.95 - [03/March/2014 05:59:37] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.18 - [03/March/2014 06:09:45] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.18 - [03/March/2014 06:53:53] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.18 - [03/March/2014 06:53:54] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.18 - [03/March/2014 06:53:55] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+61.245.163.18 - [03/March/2014 07:39:27] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+112.135.27.91 - [04/March/2014 05:42:50] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.48.174 - [05/March/2014 09:15:24] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.48.174 - [05/March/2014 09:30:52] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.48.174 - [05/March/2014 09:45:03] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+103.247.48.174 - [05/March/2014 10:05:58] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.135.69.28 - [07/March/2014 07:05:26] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.69.28 - [07/March/2014 07:15:53] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.69.28 - [07/March/2014 07:36:38] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.69.28 - [07/March/2014 07:47:17] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.43 - [07/March/2014 03:25:46] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.163.43 - [07/March/2014 03:29:05] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.135.9.85 - [07/March/2014 03:29:26] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.9.85 - [07/March/2014 03:30:30] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.9.85 - [07/March/2014 03:31:25] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.9.85 - [07/March/2014 03:31:46] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.43 - [07/March/2014 03:32:03] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.163.43 - [07/March/2014 03:32:30] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.163.43 - [07/March/2014 03:33:35] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.135.9.85 - [07/March/2014 03:36:15] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.9.85 - [07/March/2014 06:18:57] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.37.129 - [07/March/2014 07:40:51] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.48.168 - [08/March/2014 04:03:43] /Battle/score/score_admin.php Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 610)
+175.157.220.12 - [08/March/2014 10:32:48] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.134.16.215 - [08/March/2014 10:31:33] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.16.215 - [09/March/2014 12:32:19] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.50.182 - [09/March/2014 12:36:11] /battle/score/score_admin.php Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 610)
+112.134.16.215 - [09/March/2014 12:43:25] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.147.188 - [09/March/2014 05:37:26] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.147.188 - [09/March/2014 05:37:29] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.147.188 - [09/March/2014 05:42:56] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.134.92.117 - [12/March/2014 07:16:54] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.49.143 - [13/March/2014 04:33:03] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.11 - [13/March/2014 04:37:24] /Battle/score/score_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.49.143 - [13/March/2014 04:46:07] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.49.143 - [13/March/2014 04:46:08] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.49.143 - [13/March/2014 05:29:54] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.49.143 - [13/March/2014 05:30:06] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.37 - [13/March/2014 06:03:19] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.21 - [13/March/2014 06:08:39] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+::1 - [13/March/2014 06:12:48] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.45 - [13/March/2014 06:38:47] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.172.17 - [13/March/2014 07:24:41] /Battle/score/score_admin.php Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B511 Safari/9537.53
+103.247.51.45 - [13/March/2014 07:27:29] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.172.17 - [13/March/2014 07:33:05] /Battle/score/score_admin.php Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B511 Safari/9537.53
+61.245.172.17 - [13/March/2014 08:07:27] /Battle/score/score_admin.php Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B511 Safari/9537.53
+103.247.51.45 - [13/March/2014 08:23:24] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 08:43:02] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 08:52:14] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 08:58:00] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.51.45 - [13/March/2014 09:15:19] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 09:15:26] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.51.45 - [13/March/2014 09:16:32] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 09:18:22] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 09:50:06] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.51.45 - [13/March/2014 09:50:53] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 10:01:21] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 10:21:26] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 10:51:54] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.45 - [13/March/2014 11:28:24] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.51.45 - [13/March/2014 11:28:45] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.51.45 - [13/March/2014 11:28:47] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.172.17 - [13/March/2014 12:37:04] /Battle/score/score_admin.php Mozilla/5.0 (iPad; CPU OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) CriOS/32.0.1700.20 Mobile/11B511 Safari/9537.53
+112.134.145.132 - [13/March/2014 02:42:18] /Battle/score/score_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+112.134.145.132 - [13/March/2014 04:02:29] /Battle/score/score_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+112.134.145.132 - [13/March/2014 04:34:32] /Battle/score/score_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.6 - [13/March/2014 05:32:37] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.134.145.132 - [13/March/2014 11:24:07] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.50 - [14/March/2014 01:20:34] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.160.223 - [14/March/2014 03:42:38] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.172.40 - [14/March/2014 04:42:28] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.172.40 - [14/March/2014 04:43:25] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 04:53:25] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 06:00:16] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 06:42:19] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 07:08:31] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 09:41:15] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 09:57:24] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 09:57:25] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 09:57:26] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 10:07:04] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 10:51:55] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 10:59:11] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 11:02:25] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+61.245.163.61 - [14/March/2014 11:04:25] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.61 - [14/March/2014 11:46:27] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.60 - [15/March/2014 02:21:21] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.172.14 - [15/March/2014 03:49:42] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.1 - [15/March/2014 05:02:48] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.1 - [15/March/2014 05:43:07] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+103.247.51.1 - [15/March/2014 05:46:05] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+103.247.51.1 - [15/March/2014 06:12:39] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.1 - [15/March/2014 06:18:07] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.1 - [15/March/2014 06:21:49] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36
+103.247.51.1 - [15/March/2014 06:21:52] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.1 - [15/March/2014 06:35:12] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.53 - [15/March/2014 06:37:02] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.48.183 - [15/March/2014 07:14:37] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.48.183 - [15/March/2014 07:17:41] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+111.223.145.132 - [15/March/2014 07:19:27] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+111.223.145.132 - [15/March/2014 07:30:24] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+111.223.145.132 - [15/March/2014 07:30:30] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.50.172 - [15/March/2014 08:00:37] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+111.223.140.73 - [15/March/2014 08:02:19] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+111.223.140.73 - [15/March/2014 08:04:40] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.50.180 - [15/March/2014 08:06:50] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+103.247.51.48 - [15/March/2014 09:14:48] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.149 Safari/537.36
+61.245.163.26 - [15/March/2014 09:24:09] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+61.245.163.26 - [15/March/2014 09:27:30] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.50.188 - [15/March/2014 11:50:38] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+103.247.51.121 - [15/March/2014 11:53:57] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+103.247.48.140 - [15/March/2014 12:22:31] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36
+112.135.115.214 - [16/March/2014 03:02:49] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+112.135.115.214 - [16/March/2014 03:03:31] /battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+123.231.106.111 - [09/February/2015 08:09:30] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:16:05] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:22:36] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:29:45] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:32:22] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:37:50] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 08:44:46] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 09:11:32] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 09:11:38] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.111 - [09/February/2015 09:11:51] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.96.168 - [09/February/2015 12:52:23] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.96.168 - [09/February/2015 12:54:07] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.51.127 - [09/February/2015 03:42:58] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.51.127 - [09/February/2015 04:12:45] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+175.157.89.73 - [09/February/2015 05:41:36] /Battle/score/score_admin.php Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+103.247.48.176 - [09/February/2015 06:01:31] /Battle/score/score_admin.php Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; U8180 Build/GRK39F; CyanogenMod-7) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+123.231.106.213 - [10/February/2015 08:10:21] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.213 - [10/February/2015 08:14:19] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.213 - [10/February/2015 08:18:52] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.213 - [10/February/2015 08:19:04] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.213 - [10/February/2015 08:20:14] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.213 - [10/February/2015 08:20:26] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+103.247.48.172 - [11/February/2015 08:18:37] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.116 - [11/February/2015 09:11:23] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.7 - [11/February/2015 10:58:22] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.51.102 - [11/February/2015 12:57:05] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.148 - [11/February/2015 05:45:41] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.106.3 - [12/February/2015 08:49:05] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.106.3 - [12/February/2015 08:49:28] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.106.3 - [12/February/2015 09:06:36] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:11:42] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.106.3 - [12/February/2015 09:12:57] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:20:38] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:20:49] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:21:22] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:21:31] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:21:50] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:22:08] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:29:30] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:34:03] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:34:38] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:34:47] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:35:12] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:35:27] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:36:09] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:36:14] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:50:10] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 09:51:51] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0
+123.231.106.3 - [12/February/2015 10:06:06] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.106.3 - [12/February/2015 10:16:17] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.187 - [12/February/2015 06:02:42] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.35 - [13/February/2015 04:50:49] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.176 - [14/February/2015 06:39:22] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.51.109 - [15/February/2015 06:55:05] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.143 - [15/February/2015 11:35:32] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.143 - [15/February/2015 11:57:19] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.143 - [15/February/2015 12:18:51] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.143 - [15/February/2015 12:20:34] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.143 - [15/February/2015 12:21:59] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.109.92 - [16/February/2015 08:42:36] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.1; rv:27.0) Gecko/20100101 Firefox/27.0
+175.157.69.185 - [18/February/2015 10:35:34] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.48.149 - [19/February/2015 11:02:48] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+123.231.108.92 - [20/February/2015 09:11:38] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+112.135.93.199 - [22/February/2015 05:43:17] /Battle/score/score_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+112.135.93.199 - [22/February/2015 05:44:06] /Battle/score/score_admin.php Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+61.245.163.80 - [22/February/2015 07:08:05] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+175.157.83.186 - [22/February/2015 09:10:45] /Battle/score/score_admin.php Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36
+175.157.83.186 - [22/February/2015 10:26:57] /Battle/score/score_admin.php Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36
+175.157.83.186 - [22/February/2015 11:19:11] /Battle/score/score_admin.php Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36
+103.247.51.16 - [22/February/2015 08:53:56] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+103.247.51.16 - [22/February/2015 09:29:25] /Battle/score/score_admin.php Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D169 Safari/9537.53
+103.247.51.100 - [22/February/2015 11:00:49] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+103.247.51.113 - [23/February/2015 02:00:51] /Battle/score/score_admin.php Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D169 Safari/9537.53
+103.247.51.106 - [23/February/2015 02:46:52] /Battle/score/score_admin.php Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
