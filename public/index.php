@@ -79,9 +79,11 @@ try {
                 }
             }
             $perPage = !empty($_REQUEST["limit"]) ? $_REQUEST["limit"] : 25;
-            $resultObject = $botb->getCommentaries($needle,
+            $resultObject = array( 
+                "commentaries" => $botb->getCommentaries($needle,
                                                    $direction,
-                                                   $perPage);
+                                                   $perPage)
+                );
         }
 
         /*
