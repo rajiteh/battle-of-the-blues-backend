@@ -16,7 +16,7 @@ class Send_Push_Message extends Base_Job {
         $pw = Pushwoosh::create();
         $pw->setApplication(Config::PUSHWOOSH_APP)
            ->setAuth(Config::PUSHWOOSH_TOKEN);
-    	
+
         $message = $this->args['message'];
 
     	$expire = date('Y-m-d G:i:s', strtotime('now') - Config::SUBSCRIBER_TTL);
@@ -45,15 +45,14 @@ class Send_Push_Message extends Base_Job {
             if (Config::DEBUG == '1') {
                 echo "\nCount ".count($uuids).".\n";
                 echo "\nOffset ${offset}.\n";
-            } else {
-                $response = $pw->createMessage($request);
-                if(!$response->isOk()) {
-                    array_merge($errors, array(
-                        'response' => $response,
-                        'offset' => $offset
-                        )
-                    );
-                }
+            }
+            $response = $pw->createMessage($request);
+            if(!$response->isOk()) {
+                array_merge($errors, array(
+                    'response' => $response,
+                    'offset' => $offset
+                    )
+                );
             }
             $offset++;
 		} while(true);
