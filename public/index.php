@@ -23,7 +23,7 @@ $cacheKey = Helpers::generateCacheKey(); //Generate a cache key from the request
 $resultObject = array(); //Object to hold the cached/generated response
 
 //Get the URL endpoint for this request
-$route = empty($_REQUEST["param"]) ? "" : trim($_REQUEST["param"], '/ ');
+$route = Helpers::getRoute();
 
 try {
 
@@ -92,6 +92,14 @@ try {
          */
         elseif ($route == "stats") {
             $resultObject = $botb->getStats();
+        }
+
+        /*
+         *  GET /scorecard
+         *      Retrieves current match statistics.
+         */
+        elseif ($route == "scorecard") {
+            $resultObject =  $botb->getScorecard();
         }
 
         /*

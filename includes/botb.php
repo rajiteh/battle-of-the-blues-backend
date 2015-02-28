@@ -60,6 +60,10 @@ class BotB {
         return $result;
     }
 
+    public function getScorecard() {
+        $sql = 'SELECT text FROM scorecard  LIMIT 0,1';
+        return $this->database->query($sql)->fetch(PDO::FETCH_ASSOC);
+    }
     public function activateSubscriber($uuid) {
         $stmt = $this->database->prepare('INSERT INTO subscribers (uuid) VALUES(:uuid) ON DUPLICATE KEY UPDATE last_seen=NOW(), expired=0');
         $stmt->bindParam(':uuid',$uuid);

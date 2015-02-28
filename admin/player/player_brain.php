@@ -43,9 +43,10 @@ switch ($tag) {
 		echo "Runs 2 Updated! ";
 		break;
 		
-	case "current":
-       	$database->update("score", 
-		array("current_bat" => $val), array("id" => "1" ));
+	case "batting":
+        $database->update("players", array("batting" => 0));
+       	$database->update("players", 
+    		array("batting" => 1), array("id" => $val ));
 		echo "Currrent Batsman Updated!";
         break;
    }

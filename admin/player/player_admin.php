@@ -156,12 +156,12 @@ body {
 	  	
 function current(){
      var text = $('input[name="current"]:checked').val();
-	 var tag= "current";
+	 var tag= "batting";
 	 send(tag,text);
 		  }
  
      function refreshIframe1() {
-           $("#ifram")[0].src = $("#ifram")[0].src;
+           //$("#ifram")[0].src = $("#ifram")[0].src;
        } 
 	   
  
@@ -230,7 +230,7 @@ function current(){
            <button class="btn btn-warning" onclick="name2()" >Save</button>
            <p>&nbsp;</p>
            </td>
-         <td rowspan="4"><iframe id="ifram" src="http://botb.imaadhdole.com/view/" frameborder="0" height="500px" width="430px"></iframe></td>
+         <td rowspan="4"><!--<iframe id="ifram" src="http://botb.imaadhdole.com/view/" frameborder="0" height="500px" width="430px"></iframe>--></td>
          </tr>
        <tr >  
          <td><center><b>
@@ -283,7 +283,7 @@ function current(){
            </td>
          </tr>
        <tr>
-         <td onclick="set(1)"><center><b>
+         <td><center><b>
            <p>Batting Now<b><center>       
              <input style="width:10em;height:5em;" type="radio" name="current" value="1" />
            </p></td>

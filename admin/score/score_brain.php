@@ -43,10 +43,15 @@ switch ($tag) {
 		echo "Other team score Updated!";
 		break;
 		
-	case "day":
-       	$database->update("score", 
-		array("day" => $val), array("id" => "1" ));
-		echo "Day Updated!";
+    case "day":
+        $database->update("score", 
+        array("day" => $val), array("id" => "1" ));
+        echo "Day Updated!";
+        break;
+    case "innings":
+        $database->update("score", 
+        array("innings" => $val), array("id" => "1" ));
+        echo "Innings Updated!";
         break;
 		
     case "bat":

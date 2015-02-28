@@ -28,5 +28,11 @@ class Helpers {
         return $the_ip;
     }
 
+    public static function getRoute() {
+        $route = empty($_REQUEST["param"]) ? "" : trim($_REQUEST["param"], '/ ');
+        $routeSplit = explode("/", $route);
+        return $routeSplit[count($routeSplit) - 1];
+    }
+
 
 }

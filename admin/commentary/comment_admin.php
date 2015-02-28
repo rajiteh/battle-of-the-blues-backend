@@ -1,5 +1,7 @@
 <?php
-	require_once('auth.php');
+
+session_start();
+	//require_once('auth.php');
 ?>
 
 
@@ -52,7 +54,7 @@ fclose($fp);
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>Score-Card Admin</title>
+<title>Comment Admin</title>
 
 <script>
 //!!!!!!!!!!!!!!!!!!!UPDATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!//	
@@ -66,7 +68,9 @@ fclose($fp);
 	 function del(){
      var text = document.getElementById("dele").value;
 	 var tag= "del";
-	 send(tag,text);
+     var sure = confirm("Are you sure?")
+     if (sure)
+    	 send(tag,text);
 	  }
 	  
  
@@ -105,7 +109,7 @@ fclose($fp);
 
 <div class="container">
 <div class="container-fluid">
- 	<h2>BOTB: Score-Card Admin Panel: 
+ 	<h2>BOTB: Commentary Admin Panel: 
 	<?php echo $_SESSION['SESS_FIRST_NAME'];?></h2>
     <p><a class="btn btn-danger" href="../login/logout.php"> <i class=" icon-arrow-left icon-white"></i>  Logout</a></p>
    
@@ -114,19 +118,22 @@ fclose($fp);
     <div class="row-fluid">
 
 		 <div class="span6"> <p></p>
-        <p> Insert to Score-Card:</p>       
+        <p> Insert to commentary:</p>       
 <textarea rows="8" style="width:350px" id="comment">
 </textarea>
- <button class="btn btn-primary " onclick="add()" type="button">Update Score-Card</button>
+ <button class="btn btn-primary " onclick="add()" type="button">Add Commentary</button>
 
+<p></p><p></p>
+ID:<input class="input-small" type="text"  id="dele" />
 <p></p>
+ <button class="btn btn-danger " onclick="del()" type="button">Delete Comment</button>
 
 </div>
 
  <span style="width:20%; font-size:15px" class="label label-success"><tt id="results">Result</tt></span> 
  
 		<div id="ifra" class="span6">        
-<iframe id="ifram" src="http://botb.imaadhdole.com/applE/#scorecard" frameborder="0" height="560px" width="430px"></iframe>
+<iframe id="ifram" src="show.php" frameborder="0" height="500px" width="430px"></iframe>
   </div>
  
  
@@ -141,4 +148,5 @@ fclose($fp);
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 

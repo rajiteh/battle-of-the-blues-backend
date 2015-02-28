@@ -26,37 +26,17 @@ fwrite($fp, $ipadress.' - ['.$date.'] '.$webpage.' '.$browser."\r\n");
 fclose($fp);
 
 
-$dt = $database->select("score", array(
-"score",
-"wickets","overs","old","other","text","day","bat"), array("id" => 1));
-$score=""; 
-$wickets=""; 
-$old="";
-$overs=""; 
-$other=""; 
-$text="";
-$day=""; 
-$bat="";
-foreach($dt as $data1)
-{
-$score=$data1["score"]; 
-$wickets=$data1["wickets"]; 
-$old=$data1["old"];
-$overs=$data1["overs"]; 
-$other=$data1["other"];
-$text=$data1["text"];
-$day=$data1["day"]; 
-$bat=$data1["bat"];
-
-//SD added from here
-
-$tmpday= substr($day,0,strpos($day,"!"));
-$inning= substr($day,strpos($day,"!")+1,strlen($day)-1-strpos($day,"!"));
-$day=$tmpday;
-
-//// SD ADDED UNTIL HERE
-
-}
+$fetch = $database->select("score", "*");
+$score_data = $fetch[0];
+$score=$score_data["score"];
+$wickets=$score_data["wickets"];
+$overs=$score_data["overs"];
+$old=$score_data["old"];
+$other=$score_data["other"];
+$day=$score_data["day"];
+$innings=$score_data["innings"];
+$bat=$score_data["bat"];
+$text=$score_data["text"];
 
 ?>
 
@@ -151,19 +131,24 @@ body,td,th {
 	 send(tag,text);
 	  }		
   function day(){
-     var text = document.getElementById("day").value + "!"+ document.getElementById("inn").value ;
-	 var tag= $("#day").attr("id");
-	 send(tag,text);
-	  }		  
+     var text = document.getElementById("day").value;
+     var tag= $("#day").attr("id");
+   send(tag,text);
+    }
+    function innings(){
+     var text = document.getElementById("innings").value;
+     var tag= $("#innings").attr("id");
+      send(tag,text);
+    }
   function bat(){
      var text = $('input[name="current"]:checked').val();
 	 var tag= "bat";
 	 send(tag,text);
-	  }		  
+	  }
 
  
      function refreshIframe1() {
-           $("#ifram")[0].src = $("#ifram")[0].src;
+          //$("#ifram")[0].src = $("#ifram")[0].src;
        } 
  
  
@@ -173,7 +158,8 @@ body,td,th {
  
  
  function send(tag,val)
-	  {			
+	  {
+
 
 		if (window.XMLHttpRequest)
 		  {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -238,7 +224,7 @@ body,td,th {
                  </p>
 <button class="btn btn-primary" onclick="w()" >Save</button>               </td>
                <td width="430" rowspan="4"> <span style="font-size:15px" class="label label-success"><p align="center"><tt id="results">: Status :</tt></p></span>
-                 <iframe id="ifram" src="http://botb.imaadhdole.com/view/" frameborder="0" height="500px" width="430px"></iframe>
+                <!-- <iframe id="ifram" src="http://botb.imaadhdole.com/view/" frameborder="0" height="500px" width="430px"></iframe>-->
                <div align="center"></div></td>
              </tr>
              <tr>
@@ -274,13 +260,14 @@ body,td,th {
                <td><center><b>
                  <p>Day</p>
                  <p>
-  <input class="input-small" value="<?php echo $day; ?>"  type="text" name="b1" id="day" />
+                  <input class="input-small" value="<?php echo $day; ?>"  type="text" name="b1" id="day" />
+                  <button class="btn btn-success" onclick="day()" >Save</button>  
                  </p>
-                 <p>Inning</p>
+                 <p>Innings</p>
                  <p>
-                   <input class="input-small" value="<?php echo $inning; ?>"  type="text" name="inni" id="inn" />
+                   <input class="input-small" value="<?php echo $innings; ?>"  type="text" name="innings" id="innings" />
                  </p>
-               <button class="btn btn-success" onclick="day()" >Save</button>               </td>
+               <button class="btn btn-success" onclick="innings()" >Save</button>               </td>
                <td><center><b>
                  <p>Batting team</p>
                  <p> 
