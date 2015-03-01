@@ -63,6 +63,13 @@ switch ($tag) {
 }
 
 include('../../vendor/autoload.php');
-Pusher::queuePushMessage("SCORE UPDATE!");
-echo "<br/>Score update pushed!";
+
+$ret = Pusher::getInstance()->scoreUpdate();
+
+if ($ret > 0) {
+        echo "<br/>Cache cleared!";
+}
+
+
+
 ?>

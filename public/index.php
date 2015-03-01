@@ -17,13 +17,14 @@ $analytics['cached'] = true;
 $analytics['exception'] = null;
 $analytics['stacktrace'] = null;
 
-$cacheWhitelist = array( "trigger_push" ); //Routes that should not be cached
-$cacheTTL = Config::CACHE_TTL; // How long before cache is expired
-$cacheKey = Helpers::generateCacheKey(); //Generate a cache key from the request
-$resultObject = array(); //Object to hold the cached/generated response
-
 //Get the URL endpoint for this request
 $route = Helpers::getRoute();
+
+$cacheWhitelist = array( "trigger_push" ); //Routes that should not be cached
+$cacheTTL = 259200; // Config::CACHE_TTL; // How long before cache is expired
+$cacheKey = Helpers::generateCacheKey($route); //Generate a cache key from the request
+$resultObject = array(); //Object to hold the cached/generated response
+
 
 try {
 
@@ -107,12 +108,16 @@ try {
          *      Sends a push notification to all active subscribers
          */
         elseif ($route == "trigger_push") {
-            Pusher::queuePushMessage("SCORE UPDATE!");
+            Job::queuePushMessage("SCORE UPDATE!");
             $resultObject = array("triggered" => true);
         }
 
-        //Update the cache
-        $cache->save($cacheKey, $resultObject, $cacheTTL);
+        else {
+            $cacheTTL = -1;
+        }
+
+        //Update the cache with a tag
+        if ($cacheTTL > 0) $cache->save($cacheKey, $resultObject, $cacheTTL, $route);
 
         //Unlock the cache key (this may not be needed?)
         if (!empty($cacheUnlocker)) $cache->unlock_key($cacheUnlocker);
@@ -122,12 +127,12 @@ try {
     if (!empty($_GET['id']) && $_GET['id'] != 'false') {
         if ($route == "stats") {
             //Mark the user as active
-            Pusher::queueSubscription($_GET['id']);
+            Job::queueSubscription($_GET['id']);
             $analytics["subscription_accepted"] = true;
         }
         elseif ($route == "unsubscribe") {
             //Mark the user as inactive
-            Pusher::queueUnsubscription($_GET['id']);
+            Job::queueUnsubscription($_GET['id']);
             $resultObject = array("unsubscription_accepted" => true);
         } else {
             throw new Exception("Unexpected parameter ID with hwid.");

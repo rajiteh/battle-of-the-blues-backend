@@ -6,33 +6,62 @@
  */
 
 class Pusher {
+    const ROUTE_STATS = 'stats',
+          ROUTE_COMMENTARY = 'commentary',
+          ROUTE_SCORECARD = 'scorecard';
 
-	public static function queueSubscription($uuid) {
-		$args = array(
-			'uuid' => $uuid,
-			'type' => 'subscribe'
-			);
-		self::enqueue('subscribers','Add_Subscriber', $args);
-	}
+    protected static $botb;
+    protected static $cache;
 
-	public static function queueUnsubscription($uuid) {
-		$args = array(
-			'uuid' => $uuid,
-			'type' => 'unsubscribe'
-			);
-		self::enqueue('subscribers','Add_Subscriber', $args);
-	}
+    public function __construct() {
+        //Establish the db connection
+        $this->botb = new BotB(Config::DATABASE_STRING,
+            Config::DATABASE_USER,
+            Config::DATABASE_PASSWORD);
+        $this->cache = new \Jamm\Memory\PhpRedisObject('botbCache');
+    }
 
-	public static function queuePushMessage($message) {
-		$args = array(
-			'message' => $message
-			);
-		self::enqueue('push', 'Send_Push_Message', $args);
-	}
+    public static function getInstance() {
+        return new self();
+    }
 
-	protected static function enqueue($q, $c, $a) {
-		Resque::setBackend(Config::REDIS_DSN);
-		Resque::enqueue($q, $c, $a);
-	}
+    public function scoreUpdate() {
+        $score = $this->botb->getStats();
+        $pushMsg = sprintf("%s: %s/%s (%s)",
+            $score['bat'],
+            $score['score'],
+            $score['wickets'],
+            $score['overs']);
+        $refreshList = array(self::ROUTE_STATS);
+        return $this->sendPush($pushMsg, $refreshList);
+    }
+
+    public function commentaryUpdate() {
+        $score = $this->botb->getStats();
+        $pushMsg = $score['last_comment'];
+        $refreshList = array(self::ROUTE_STATS, self::ROUTE_COMMENTARY);
+        return $this->sendPush($pushMsg, $refreshList);
+    }
+
+    public function scorecardUpdate() {
+        $pushMsg = 'Scoreboard updated!';
+        $refreshList = array(self::ROUTE_SCORECARD);
+        return $this->sendPush($pushMsg, $refreshList);
+    }
+
+    protected function sendPush($msg, $refreshList) {
+        $cache = 0;
+        //Clear cache
+        foreach($refreshList as $cacheTag) {
+            $cache += $this->cache->del_by_tags($cacheTag);
+        }
+        Job::queuePushMessage($msg, self::generateRefreshData($refreshList));
+        return $cache;
+    }
+
+    protected static function generateRefreshData($items) {
+        return array('refresh' => $items);
+    }
+
 
 }

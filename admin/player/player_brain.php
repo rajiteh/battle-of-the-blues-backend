@@ -50,4 +50,13 @@ switch ($tag) {
 		echo "Currrent Batsman Updated!";
         break;
    }
+
+include('../../vendor/autoload.php');
+
+$ret = Pusher::getInstance()->scoreUpdate();
+
+if ($ret > 0) {
+        echo "<br/>Cache cleared!";
+}
+
 ?>

@@ -7,13 +7,13 @@
 
 class Helpers {
 
-    public static function generateCacheKey() {
+    public static function generateCacheKey($route) {
         $req = $_REQUEST;
     	unset($req["id"]);
     	unset($req["callback"]);
         unset($req["_"]);
-    	$wot = $_SERVER["REQUEST_METHOD"].implode(":",array_keys($req)).implode(":",$req);
-        return md5($wot);
+    	$wot = $_SERVER["REQUEST_METHOD"].serialize($req);
+        return $route.":".md5($wot);
     }
 
     public static function getIP() {

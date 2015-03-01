@@ -9,7 +9,7 @@ require 'medoo.php';
 $database = new medoo("botb");
 
 // location of the text file that will log all the ip adresses
-$file = '../logs/commentary_log.txt';
+$file = '../logs/scorecard_log.txt';
 
 // ip address of the visitor
 $ipadress = $_SERVER['REMOTE_ADDR'];
@@ -29,8 +29,10 @@ $fp = fopen($file, 'a');
 fwrite($fp, $ipadress.' - ['.$date.'] '.$webpage.' '.$browser."\r\n");
 
 fclose($fp);
-
-
+$scorecard = "";
+$scorecardfetch = $database->select("scorecard", "*");
+if (count($scorecardfetch) > 0)
+    $scorecard = $scorecardfetch[0]["text"];
 
 
 
@@ -57,18 +59,11 @@ fclose($fp);
 <script>
 //!!!!!!!!!!!!!!!!!!!UPDATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!//	
   function add(){
-     var text = document.getElementById("comment").value;
-	 var tag= "comment";
+     var text = document.getElementById("scorecard").value;
+	 var tag= "scorecard";
      send(tag,text);
 	  }
 
-	 function del(){
-     var text = document.getElementById("dele").value;
-	 var tag= "del";
-	 send(tag,text);
-	  }
-	  
- 
      function refreshIframe1() {
            $("#ifram")[0].src = $("#ifram")[0].src;
        } 
@@ -89,14 +84,13 @@ fclose($fp);
 		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
 			{
 				refreshIframe1();
-			// REMOVE WHEN FINALISING  ONLY FOR TESTING !!
 			document.getElementById("results").innerHTML=xmlhttp.responseText;
-			 document.getElementById("comment").value="";
 			}
 		  }
-		xmlhttp.open("GET","comment_brain.php?tag="+tag+"&val="+val,true);
-		xmlhttp.send();	
-	  }	  
+		xmlhttp.open("POST","scorecard_brain.php",true);
+        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		xmlhttp.send("tag="+tag+"&val="+val);
+	  }
 </script>
 </head>
 
@@ -114,7 +108,8 @@ fclose($fp);
 
 		 <div class="span6"> <p></p>
         <p> Insert to Score-Card:</p>       
-<textarea rows="8" style="width:350px" id="comment">
+<textarea rows="8" style="width:350px" id="scorecard">
+<?php echo $scorecard ?>
 </textarea>
  <button class="btn btn-primary " onclick="add()" type="button">Update Score-Card</button>
 

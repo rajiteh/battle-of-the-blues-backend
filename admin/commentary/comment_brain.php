@@ -19,14 +19,17 @@ if($tag=="del"){
 else{
 
  	$database->insert("text", array("commentary" => $val));
- 	
-		echo "Full Updated!";
-		
 	$database->update("score", array("last_comment" => $val,"id"=>"1" ));
-	$database->update("scoredb", array("daata" => $val,"id"=>"1" ));
-	
-		echo "Full Updated!";
-
+	echo "Full Updated!";
 }
+
+include('../../vendor/autoload.php');
+
+$ret = Pusher::getInstance()->commentaryUpdate();
+
+if ($ret > 0) {
+        echo "<br/>Cache cleared!";
+}
+
 
 ?>

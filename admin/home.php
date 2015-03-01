@@ -41,7 +41,7 @@ fclose($fp);
 <h1> <a href="score/score_admin.php"<button class="btn btn-primary " type="button">Score</button></a></h1>
 <h1> <a href="player/player_admin.php"<button class="btn btn-primary " type="button">Player</button></a></h1>
 <h1> <a href="commentary/comment_admin.php"<button class="btn btn-primary " type="button">Commentary</button></a></h1>
-<h1> <a href="score-card/comment_admin.php"<button class="btn btn-primary " type="button">Score-Card</button></a></h1>
+<h1> <a href="score-card/scorecard_admin.php"<button class="btn btn-primary " type="button">Score-Card</button></a></h1>
 <h1> <a href="http://198.148.112.72/view/"<button class="btn btn-primary " type="button">Show</button></a></h1>
 <h1> <a href="login/logout.php"<button class="btn btn-primary " type="button">LOGOUT</button></a></h1>
 </body>

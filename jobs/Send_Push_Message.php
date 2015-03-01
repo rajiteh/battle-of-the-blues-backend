@@ -13,11 +13,14 @@ class Send_Push_Message extends Base_Job {
     public function perform_wrapped()
     {
         $botb = new BotB(Config::DATABASE_STRING, Config::DATABASE_USER, Config::DATABASE_PASSWORD);
-        $pw = Pushwoosh::create();
-        $pw->setApplication(Config::PUSHWOOSH_APP)
-           ->setAuth(Config::PUSHWOOSH_TOKEN);
+        $pw = Pushwoosh::create()
+            ->setApplication(Config::PUSHWOOSH_APP)
+            ->setAuth(Config::PUSHWOOSH_TOKEN);
 
         $message = $this->args['message'];
+        $data = array();
+        if (array_key_exists('data', $this->args))
+            $data = $this->args['data'];
 
     	$expire = date('Y-m-d G:i:s', strtotime('now') - Config::SUBSCRIBER_TTL);
         $botb->expireSubscribers($expire);
@@ -27,17 +30,13 @@ class Send_Push_Message extends Base_Job {
     	$uuids = array();
         $errors = array();
     	do {
-
     		$uuids = $botb->getSubscribers($batchSize, $offset);
-
     		if (count($uuids) == 0) break;
 
 		   	$notification = Notification::create()
-	    	                  ->setContent($message);
-
-    		foreach($uuids as $uuid) {
-    			$notification->addDevice($uuid);
-    		}
+                ->setContent($message)
+                ->setData($data)
+                ->setDevices($uuids);
 
     		$request = CreateMessageRequest::create()
                         ->addNotification($notification);
@@ -46,6 +45,7 @@ class Send_Push_Message extends Base_Job {
                 echo "\nCount ".count($uuids).".\n";
                 echo "\nOffset ${offset}.\n";
             }
+
             $response = $pw->createMessage($request);
             if(!$response->isOk()) {
                 array_merge($errors, array(
