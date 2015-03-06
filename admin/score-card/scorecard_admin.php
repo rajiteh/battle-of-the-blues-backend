@@ -120,7 +120,7 @@ if (count($scorecardfetch) > 0)
  <span style="width:20%; font-size:15px" class="label label-success"><tt id="results">Result</tt></span> 
  
 		<div id="ifra" class="span6">        
-<iframe id="ifram" src="http://botb.imaadhdole.com/applE/#scorecard" frameborder="0" height="560px" width="430px"></iframe>
+<iframe id="ifram" src="http://botb-preview.rajiteh.com/#scorecard" frameborder="0" height="560px" width="430px"></iframe>
   </div>
  
  

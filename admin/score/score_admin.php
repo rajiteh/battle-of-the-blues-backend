@@ -148,7 +148,7 @@ body,td,th {
 
  
      function refreshIframe1() {
-          //$("#ifram")[0].src = $("#ifram")[0].src;
+          $("#ifram")[0].src = $("#ifram")[0].src;
        } 
  
  
@@ -224,7 +224,7 @@ body,td,th {
                  </p>
 <button class="btn btn-primary" onclick="w()" >Save</button>               </td>
                <td width="430" rowspan="4"> <span style="font-size:15px" class="label label-success"><p align="center"><tt id="results">: Status :</tt></p></span>
-                <!-- <iframe id="ifram" src="http://botb.imaadhdole.com/view/" frameborder="0" height="500px" width="430px"></iframe>-->
+                 <iframe id="ifram" src="http://botb-preview.rajiteh.com/" frameborder="0" height="500px" width="430px"></iframe>
                <div align="center"></div></td>
              </tr>
              <tr>

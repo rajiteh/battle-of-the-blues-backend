@@ -161,7 +161,7 @@ function current(){
 		  }
  
      function refreshIframe1() {
-           //$("#ifram")[0].src = $("#ifram")[0].src;
+           $("#ifram")[0].src = $("#ifram")[0].src;
        } 
 	   
  
@@ -230,7 +230,7 @@ function current(){
            <button class="btn btn-warning" onclick="name2()" >Save</button>
            <p>&nbsp;</p>
            </td>
-         <td rowspan="4"><!--<iframe id="ifram" src="http://botb.imaadhdole.com/view/" frameborder="0" height="500px" width="430px"></iframe>--></td>
+         <td rowspan="4"><iframe id="ifram" src="http://botb-preview.rajiteh.com/" frameborder="0" height="500px" width="430px"></iframe></td>
          </tr>
        <tr >  
          <td><center><b>
