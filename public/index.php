@@ -24,7 +24,7 @@ $cacheWhitelist = array( "trigger_push" ); //Routes that should not be cached
 $cacheTTL = 259200; // Config::CACHE_TTL; // How long before cache is expired
 $cacheKey = Helpers::generateCacheKey($route); //Generate a cache key from the request
 $resultObject = array(); //Object to hold the cached/generated response
-$disableCaching = true;
+$disableCaching = false;
 
 try {
 
