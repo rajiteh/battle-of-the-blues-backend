@@ -35,6 +35,8 @@ class BotB {
     public function getStats() {
         $scores = $this->getScores();
         $scores["crease"]  = $this->getPlayers();
+        $lastComment = $this->database->query("SELECT * FROM text ORDER BY id DESC LIMIT 1")->fetch(PDO::FETCH_ASSOC);
+        if ($lastComment != FALSE) { $scores["last_comment"] = $lastComment["commentary"]; }
         return $scores;
     }
 

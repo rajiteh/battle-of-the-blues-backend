@@ -24,7 +24,7 @@ $cacheWhitelist = array( "trigger_push" ); //Routes that should not be cached
 $cacheTTL = 259200; // Config::CACHE_TTL; // How long before cache is expired
 $cacheKey = Helpers::generateCacheKey($route); //Generate a cache key from the request
 $resultObject = array(); //Object to hold the cached/generated response
-
+$disableCaching = true;
 
 try {
 
@@ -32,7 +32,7 @@ try {
     $cache = new \Jamm\Memory\PhpRedisObject('botbCache');
 
     //Check if the request is cached
-    if (in_array($route, $cacheWhitelist) || //If the request is not cachable?
+    if ($disableCaching || in_array($route, $cacheWhitelist) || //If the request is not cachable?
         (
             $cache->acquire_key($cacheKey, $cacheUnlocker) && //Acquire exclusive access to the key, make sure no other worker is currently querying the database
             ($resultObject = $cache->read($cacheKey)) === false  //If found in cache, assign to resultObject, else proceed.
