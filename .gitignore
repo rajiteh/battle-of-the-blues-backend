@@ -10,3 +10,5 @@ Vagrantfile
 composer.lock
 supervisord_prod.conf
 admin/logs/
+bfg.jar
+replacements.txt
